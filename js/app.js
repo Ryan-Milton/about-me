@@ -1,31 +1,31 @@
 'use strict';
 
-// alert('Are you sure you want to enter this website?');
-// // get the users name
-// var userName = prompt('Hi there! What is your name?');
-// alert('Nice to have you here ' + userName + ' I\'m going to ask you questions about me. These are all yes/no questions so feel free to answer with y/n or yes/no')
+alert('Are you sure you want to enter this website?');
+// get the users name
+var userName = prompt('Hi there! What is your name?');
+alert('Nice to have you here ' + userName + ' I\'m going to ask you questions about me. These are all yes/no questions so feel free to answer with y/n or yes/no')
 
-// // ask them 5 y/n questions
+// ask them 5 y/n questions
 
-// var answerOne = prompt('Do I have any pets?').toLowerCase();
+var answerOne = prompt('Do I have any pets?').toLowerCase();
 
-// //Here I am testing whether I can nest an if/else inside the else
+//Here I am testing whether I can nest an if/else inside the else
 
-// if (answerOne === 'y' || answerOne === 'yes') {
-//     alert('Okay, so you remember my introduction from Monday. Cool.'); 
-// } else {
-//     alert('HA! Guess again bub :P');
-//     var answerOneTwo = prompt('Do I have any pets?');
-//     if ( answerOneTwo === 'y' || answerOneTwo === 'yes') {
-//         alert('So you changed your mind and got it right. How about them second chances, huh?');
-//     } else {
-//         alert('Seriously?! It\'s 50/50 and you still got it wrong? You should leave now.');
-//     }
-// }
+if (answerOne === 'y' || answerOne === 'yes') {
+    alert('Okay, so you remember my introduction from Monday. Cool.'); 
+} else {
+    alert('HA! Guess again bub :P');
+    var answerOneTwo = prompt('Do I have any pets?');
+    if ( answerOneTwo === 'y' || answerOneTwo === 'yes') {
+        alert('So you changed your mind and got it right. How about them second chances, huh?');
+    } else {
+        alert('Seriously?! It\'s 50/50 and you still got it wrong? You should leave now.');
+    }
+}
 
-// //The nest works!
+//The nest works!
 
-//I'm testing using multiple alerts after an answer to give depth to the conversation
+I'm testing using multiple alerts after an answer to give depth to the conversation
 
 alert('So it seems that your memory is good, let\'s test your intuition.');
 
