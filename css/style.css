@@ -1,7 +1,39 @@
 * {
     color:rgb(0, 0, 0);
-    background:rgb(255, 255, 255);
+    background:#f5f5dc;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
-    font-size: 50px;
+    font-size: 100px;
+    font-style: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+img.photo-center {
+    display: block;
+    margin: 10px auto;
+}
+img.large {
+    width:50%;
+    height: 50%;
+}
+
+#tagLine {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#description {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
