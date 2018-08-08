@@ -1,4 +1,7 @@
 * {
-    color:blue;
-    background:grey;
-};
+    color:rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
+}
+h1 {
+    font-size: 50px;
+}
