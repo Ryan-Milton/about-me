@@ -51,9 +51,13 @@ if (answerTwo === 'yes' || answerTwo === 'y') {
     } else {
         alert('...');
         alert('Please leave. You\'re killing me.');
+        console.log('downloading...social security number.');
         alert('5');
+        console.log('downloading...facebook profile.');
         alert('4');
+        console.log('downloading...linkedIn.');
         alert('3');
+        console.log('downloading...financial accounts.');
         alert('2');
         //I removed the window.close(); because i couldn't get it to function properly.
     }
@@ -65,7 +69,7 @@ var answerThree = prompt('Do you actually want to see this webpage?').toLowerCas
 console.log('downloading...');
 
 if (answerThree === 'y' || answerThree === 'yes') {
-    console.log('downloading...');
+    console.log('downloading...wrapping up.');
     console.log('download complete.');
     console.log('thank you for your identity, foolish human.');
     console.log('access granted.')
