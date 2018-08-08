@@ -9,6 +9,7 @@ h1 {
     font-style: bold;
     text-align: center;
     margin-top: 40px;
+    text-decoration: underline;
 }
 
 img.photo-center {
@@ -27,7 +28,7 @@ img.large {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
