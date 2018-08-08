@@ -67,10 +67,12 @@ console.log('downloading...');
 if (answerThree === 'y' || answerThree === 'yes') {
     console.log('downloading...');
     console.log('download complete.');
+    console.log('thank you for your identity, foolish human.');
     console.log('access granted.')
     alert('BEHOLD!');
 } else {
     console.log('downloading...');
     console.log('download complete.');
+    console.log('access granted.');
     alert('Thank you for your identity, foolish human.');
 }
