@@ -81,31 +81,58 @@
 // }
 
 //Question 6 of about-me.
+function aboutRyan() {
+  var limitNumber = 10;
+  var counter = 0;
+  var maxTries = 3;
+  var RandomNumber = 7;
 
-var limitNumber = 10;
-var counter = 0;
-var maxTries = 3;
-var RandomNumber = 7;
+  var arrayNavy = ['destroyer', 'aircraft carrier', 'submarine', 'cruiser', 'frigate'];
 
-while (guess !== limitNumber) {
-  var guess = parseInt(prompt('What number am I thinking of?'));
-  counter++;
-  if(guess === RandomNumber) {
-    alert('You\'re right!');
-    break;
+  while (guess !== limitNumber) {
+    var guess = parseInt(prompt('What number am I thinking of?'));
+    counter++;
+    if (guess === RandomNumber) {
+      alert('You\'re right!');
+      break;
+    }
+    if (guess < RandomNumber) {
+      alert('Your guess was too low. Try again.');
+    }
+    if (guess > RandomNumber) {
+      alert('Your guess was too high. Try again.');
+    }
+    if (counter > maxTries) {
+      alert('You\'ve used up all your guesses :\(');
+      break;
+    }
   }
-  if(guess < RandomNumber) {
-    alert('Your guess was too low. Try again.');
+
+  //A little help on question 7
+
+  alert('Care to guess the type of warships the Navy has')
+  var navyGuess = prompt('Pick Your First Warship. You have SIX tries');
+  console.log('First Array Guess: ' + navyGuess)
+
+  var j = 1;
+
+  while (j < 6) {
+    if (arrayNavy.indexOf(navyGuess) === -1) {
+      j++;
+      navyGuess = prompt('NOPE! Guess Again');
+      console.log('Loop ' + j + ' Array guess: ' + navyGuess);
+    } else {
+      alert('Wow! You got one! All the answers are' + arrayNavy);
+      j = 7;
+    }
   }
-  if(guess > RandomNumber) {
-    alert('Your guess was too high. Try again.');
-  }
-  if(counter > maxTries) {
-    alert('You\'ve used up all your guesses :\(');
-    break;
+
+  if (arrayNavy.indexOf(navyGuess) === -1) {
+    alert('You Lost :(. The correct answers are ' + arrayNavy)
   }
 }
 
+aboutRyan();
 //Question 7.
 
 
