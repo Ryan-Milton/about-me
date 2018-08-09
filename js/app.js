@@ -80,7 +80,7 @@
 //   alert('Thank you for your identity, foolish human.');
 // }
 
-//Question 6 of about-me
+//Question 6 of about-me.
 
 var limitNumber = 10;
 var counter = 0;
@@ -105,3 +105,9 @@ while (guess !== limitNumber) {
     break;
   }
 }
+
+//Question 7.
+
+
+
+//no entry due to brain exploding.
