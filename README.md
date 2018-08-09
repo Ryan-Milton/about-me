@@ -1,2 +1,2 @@
 # about-me
-The About Me project for lab 2 for 201d38.
+The About Me project for lab 3 for 201d38.

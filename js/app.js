@@ -108,6 +108,27 @@ while (guess !== limitNumber) {
 
 //Question 7.
 
+var arrayNavy = ['destroyer', 'aircraft carrier', 'submarine', 'cruiser', 'frigate'];
+alert('Care to guess the type of warships the Navy has');
+var navyGuess = prompt('Pick Your First Warship. You have SIX tries');
+console.log('First Array Guess: ' + navyGuess);
 
+var j = 1;
+
+while (j < 6) {
+  if (arrayNavy.indexOf(navyGuess) === -1) {
+    j++;
+    console.log(arrayNavy.indexOf(navyGuess));
+    navyGuess = prompt('NOPE! Guess Again');
+    console.log('Loop ' + j + ' Array guess: ' + navyGuess);
+  } else {
+    alert('Wow! You got one! All the answers are' + arrayNavy);
+    j = 7;
+  }
+}
+
+if (arrayNavy.indexOf(navyGuess) === -1) {
+  alert('You Lost :(. The correct answers are ' + arrayNavy);
+}
 
 //no entry due to brain exploding.
