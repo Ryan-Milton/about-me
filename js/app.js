@@ -68,7 +68,7 @@ function pizzaQuestion() {
 
 
 
-  alert('CONGRATULATIONS!!! Only one more question left.');
+  alert('Good job! Only a few more to go!');
 }
 
 function webpageQuestion() {
@@ -122,7 +122,7 @@ pizzaQuestion();
 webpageQuestion();
 //A little help on question 7
 
-var arrayNavy = ['destroyer', 'aircraft carrier', 'submarine', 'cruiser', 'frigate'];
+var arrayNavy = ['destroyer ', 'aircraft carrier ', 'submarine ', 'cruiser ', 'frigate '];
 function arrayGuess() {
   alert('Care to guess the type of warships the Navy has');
   var navyGuess = prompt('Pick Your First Warship. You have SIX tries');
@@ -137,17 +137,15 @@ function arrayGuess() {
       navyGuess = prompt('NOPE! Guess Again');
       console.log('Loop ' + j + ' Array guess: ' + navyGuess);
     } else {
-      alert('Wow! You got one! All the answers are' + arrayNavy);
+      alert('Wow! You got one! All the answers are ' + arrayNavy + '.');
       j = 7;
     }
   }
 
   if (arrayNavy.indexOf(navyGuess) === -1) {
-    alert('You Lost :(. The correct answers are ' + arrayNavy);
+    alert('You Lost :(. The correct answers are ' + arrayNavy + '.');
   }
 }
 
 aboutRyan();
 arrayGuess();
-
-//no entry due to brain exploding.
